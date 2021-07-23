@@ -7,11 +7,11 @@ const FaqPage = () => {
     <>
       <h1 className="gradient">FAQ</h1>
       <Divider thickness={2} width="narrow" gradient={true} align="left" />
-      {faq.map(([question, answer]) => (
-      <div className={styles.question}>
-        <h2 className="gradient">{question}</h2>
-        <p>{answer}</p>
-      </div>
+      {faq.map(([question, answer], count) => (
+        <div className={styles.question} key={count}>
+          <h2 className="gradient">{question}</h2>
+          <p>{answer}</p>
+        </div>
       ))}
     </>
   )
