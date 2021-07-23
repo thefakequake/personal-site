@@ -8,7 +8,7 @@ const Footer = () => {
       <div className={styles.socials}>
         {socials.map((social, count) => 
           <Link href={social.url} key={count}>
-            <a data-tip={social.id} target="_blank" rel="noopener">
+            <a data-tip={social.id} target="_blank" rel="noreferrer">
               {social.icon}
             </a>
           </Link>

@@ -44,7 +44,7 @@ const home = () => {
               <a
                 href={social.url}
                 target="_blank"
-                rel="noopener"
+                rel="noreferrer"
                 key={count}
                 data-tip={social.id}
               >
