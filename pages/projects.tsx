@@ -31,7 +31,7 @@ const ProjectsPage = () => {
               <h1 className="gradient" id={project.name.toLowerCase()}>
                 {project.name}
               </h1>
-              <a href={project.url} target="_blank">
+              <a href={project.url} target="_blank" rel="noreferrer">
                 <FaLink />
                 <h3>{project.title}</h3>
               </a>
