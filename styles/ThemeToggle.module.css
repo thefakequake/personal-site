@@ -1,0 +1,46 @@
+.themeToggle {
+  position: relative;
+  margin-right: 1rem;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.track {
+  transition: background-position 0.25s ease-in-out;
+  border-radius: 30px;
+  width: 60px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--sunset1),
+    var(--sunset3)
+  );
+  background-size: 200% 100%;
+  background-position: 0% 0%;
+}
+
+.track > svg {
+  color: white;
+}
+
+.thumb {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  transition: margin 0.3s;
+}
+
+.thumb.on {
+  margin-left: 2rem;
+}
+
+.dark {
+  background-position: 100%;
+}

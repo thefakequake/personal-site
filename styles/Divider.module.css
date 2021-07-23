@@ -1,0 +1,28 @@
+.divider {
+  border: 0;
+  margin-left: 0;
+  background-color: var(--opposite-absolute);
+  opacity: 0.2;
+}
+
+.gradient {
+  opacity: 1;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--sunset1),
+    var(--sunset2),
+    var(--sunset3)
+  );
+}
+
+.left {
+  margin: 2rem auto 2rem 0;
+}
+
+.center {
+  margin: 2rem auto 2rem auto;
+}
+
+.right {
+  margin: 2rem 0 2rem auto;
+}

@@ -1,0 +1,149 @@
+.navbar {
+  --navbar-height: 5rem;
+  width: 100%;
+  height: var(--navbar-height);
+  background-color: var(--foreground-secondary);
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 1px 2px var(--shadow);
+  transition: 0.25s background-color;
+  position: relative;
+  z-index: 9;
+}
+
+.home {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.logo {
+  border-radius: 50%;
+}
+
+.navItems {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.page {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: var(--sunset3);
+  font-size: 1.1rem;
+}
+
+.currentPage {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--sunset1),
+    var(--sunset3)
+  );
+}
+
+.home > h1 {
+  display: flex;
+  padding-left: 0.5rem;
+  margin: 0;
+  font-size: 1.75rem;
+}
+
+.toggle {
+  position: absolute;
+}
+
+@media screen and (max-width: 1000px) {
+  .home {
+    margin: 0 auto 0 auto;
+  }
+}
+
+.toggle {
+  top: calc(var(--navbar-height) / 2 - 0.5em);
+  left: 2rem;
+  font-size: 1.6rem;
+  animation: colourShift 3s infinite;
+  z-index: 12;
+  font-weight: 200;
+}
+
+.background {
+  position: fixed;
+  background-color: black;
+  display: none;
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+}
+
+.sidebar {
+  position: fixed;
+  width: 80%;
+  height: 100%;
+  background-color: var(--foreground-primary);
+  z-index: 11;
+  left: -80%;
+  transition: 0.25s left ease-in-out;
+  max-width: 25rem;
+}
+
+.expanded > .sidebar {
+  left: 0;
+}
+
+.expanded > .background {
+  display: block;
+}
+
+.sidebarThemeToggle {
+  display: block;
+  margin-left: 1.25rem;
+  margin-top: 2rem;
+}
+
+.sidebarNavlinks {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebarNavlinks > li {
+  margin-bottom: 1.25rem;
+  width: calc(100% - 2rem);
+  height: 100%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+  border-radius: 2.5%;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.sidebarNavlinks > li > a {
+  display: block;
+}
+
+.sidebarNavlinks > li:hover {
+  background-color: var(--foreground-secondary);
+}
+
+@keyframes colourShift {
+  0% {
+    color: var(--sunset1);
+  }
+  33% {
+    color: var(--sunset2);
+  }
+  66% {
+    color: var(--sunset3);
+  }
+  100% {
+    color: var(--sunset1);
+  }
+}

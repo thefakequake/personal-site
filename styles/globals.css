@@ -1,0 +1,93 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* Dark Theme */
+  --background: #121212;
+  --foreground-primary: #181818;
+  --foreground-secondary: #242424;
+  --text: white;
+  --shadow: black;
+  --absolute: black;
+  --opposite-absolute: white;
+
+  /* Sunset Gradient */
+  --sunset1: #e0b385;
+  --sunset2: #a368c8;
+  --sunset3: #5f8bc9;
+}
+
+/* Light Theme */
+[data-theme="light"] {
+  --background: #f0f0f0;
+  --foreground-primary: #f0f0f0;
+  --foreground-secondary: white;
+  --text: black;
+  --shadow: #bfbfbf;
+  --absolute: white;
+  --opposite-absolute: black;
+}
+
+body {
+  background-color: var(--background);
+  transition: 0.25s background-color;
+}
+
+* {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+li,
+p {
+  color: var(--text);
+}
+
+.gradient {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--sunset1),
+    var(--sunset2),
+    var(--sunset3)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 0.25s ease-in-out;
+}
+
+.gradient:hover {
+  background-position: 0 50%;
+}
+
+#pageContainer {
+  width: 60%;
+  min-height: calc(100vh - 18rem);
+  margin: 2rem auto 2rem auto;
+}
+
+@media screen and (max-width: 1000px) {
+  #pageContainer {
+    width: 95%;
+  }
+}
+
+img {
+  transform: translateZ(0);
+}
+
+p {
+  font-size: 1.15rem;
+}

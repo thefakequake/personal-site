@@ -1,0 +1,34 @@
+.logo {
+  border-radius: 50%;
+}
+
+.introContainer {
+  display: flex;
+  align-items: center;
+}
+
+.intro {
+  margin-left: 2rem;
+}
+
+.entry {
+  margin-top: 3rem;
+}
+
+.setupContainer {
+  display: flex;
+}
+
+.setupImage {
+  border-radius: 2%;
+}
+
+@media screen and (max-width: 763px) {
+  .introContainer {
+    flex-direction: column;
+  }
+
+  .intro {
+    margin-left: 0;
+  }
+}

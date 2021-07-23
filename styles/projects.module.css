@@ -1,0 +1,84 @@
+.divider {
+  height: 2px;
+  width: 40%;
+  border: 0;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--sunset1),
+    var(--sunset2),
+    var(--sunset3)
+  );
+  margin-left: 0;
+}
+
+.projects > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.descriptionContainer {
+  margin-left: 2rem;
+  width: 60%;
+}
+
+.descriptionContainer > a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.descriptionContainer > a > h3 {
+  margin: 0 0 0 1rem;
+}
+
+.projects > div > img {
+  border-radius: 10%;
+}
+
+@media screen and (max-width: 740px) {
+  .projects > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .projects > div > * {
+    margin: 0;
+  }
+
+  .projects > div > img {
+    margin-top: 2rem;
+  }
+
+  .descriptionContainer > h1 {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .descriptionContainer > a {
+    margin-top: 1.5rem;
+  }
+
+  .descriptionContainer {
+    width: 90%;
+  }  
+}
+
+@media screen and (max-width: 400px) {
+  .projects > div > h1 {
+    font-size: 1.5rem;
+  }
+
+  .descriptionContainer > a > h3 {
+    font-size: 1rem;
+  }
+
+  .descriptionContainer > p {
+    font-size: 1rem;
+  }
+}
