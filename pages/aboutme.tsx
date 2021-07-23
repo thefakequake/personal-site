@@ -18,15 +18,15 @@ const AboutMe = () => {
     />
   )
 
-  const title = <h1 className="gradient">Hi, I&quot;m QuaKe.</h1>
+  const title = <h1 className="gradient">Hi, I&apos;m QuaKe.</h1>
 
   const desc = (
     <p>
-      I&quot;m a programmer from the UK who also enjoys gaming in my free time. I&quot;m
-      in Year 10 of secondary school, and I take Computer Science GCSE. I
-      program primarily in Python and JavaScript, but I also use TypeScript and
-      sometimes C#. Most of my projects are web applications, but I&quot;ve also
-      written a{" "}
+      I&apos;m a programmer from the UK who also enjoys gaming in my free time.
+      I&apos;m in Year 10 of secondary school, and I take Computer Science GCSE.
+      I program primarily in Python and JavaScript, but I also use TypeScript
+      and sometimes C#. Most of my projects are web applications, but I&apos;ve
+      also written a{" "}
       <Link href="/projects/#pypartpicker">
         <a>PyPi package</a>
       </Link>{" "}
@@ -55,17 +55,15 @@ const AboutMe = () => {
         ) : (
           <>
             {logo}
-            <div className={styles.intro}>
-              {title}
-            </div>
+            <div className={styles.intro}>{title}</div>
             {desc}
           </>
         )}
       </div>
       <p>
         As for video games, I enjoy playing Minecraft, Rainbow Six Siege and
-        Ghost Recon. I&quot;ve played Apex Legends and VALORANT a decent amount in
-        the past as well. My favourite genre of game is tactical shooters. I
+        Ghost Recon. I&apos;ve played Apex Legends and VALORANT a decent amount
+        in the past as well. My favourite genre of game is tactical shooters. I
         find them very strategic and I like planning before missions.
       </p>
       <h1 className="gradient" id="setup">
