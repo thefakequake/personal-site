@@ -25,6 +25,7 @@ const App = ({ Component, pageProps }: AppProps) => {
       <ThemeProvider enableSystem={false} defaultTheme="dark">
         <Layout>
           <DefaultSeo
+            title = "QuaKe's personal website"
             openGraph={{
               type: "website",
               locale: "en_UK",
