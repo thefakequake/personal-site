@@ -25,7 +25,7 @@ const Home = () => {
         />
         <div className={styles.intro}>
           <h1 className="gradient">Hi, welcome to my website!</h1>
-          <p>My name is QuaKe, and I'm from the UK.</p>
+          <p>My name is QuaKe, and I&quot;m from the UK.</p>
           <Link href="/aboutme" >
             <a>
               <FaLink /><span className="gradient">About me</span>
