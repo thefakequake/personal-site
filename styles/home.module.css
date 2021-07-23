@@ -21,7 +21,13 @@
   margin: 0;
 }
 
-.intro > a {
+.intro > div {
+  display: flex;
+  align-items: center;
+}
+
+.intro > div > a  {
+  margin-right: 2rem;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -29,7 +35,7 @@
   margin-top: 1rem;
 }
 
-.intro > a > span {
+.intro > div > a > span {
   margin-left: 0.5rem;
   font-size: 1.25rem;
 }
@@ -117,5 +123,13 @@
 
   .listTitle {
     font-size: 1.2rem;
+  }
+
+  .intro > div {
+    flex-direction: column;
+  }
+
+  .intro > div > a {
+    margin-left: 0;
   }
 }

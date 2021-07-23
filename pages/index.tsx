@@ -8,7 +8,9 @@ import Head from "next/head"
 import { FaLink } from "react-icons/fa"
 
 const Home = () => {
-  const { data, loading } = useFetch(`https://api.github.com/users/${socials[3].id}`)
+  const { data, loading } = useFetch(
+    `https://api.github.com/users/${socials[3].id}`
+  )
 
   return (
     <>
@@ -26,11 +28,20 @@ const Home = () => {
         <div className={styles.intro}>
           <h1 className="gradient">Hi, welcome to my website!</h1>
           <p>My name is QuaKe, and I&quot;m from the UK.</p>
-          <Link href="/aboutme" >
-            <a>
-              <FaLink /><span className="gradient">About me</span>
-            </a>
-          </Link>
+          <div>
+            <Link href="/aboutme">
+              <a>
+                <FaLink />
+                <span className="gradient">About me</span>
+              </a>
+            </Link>
+            <Link href="https://github.com/quakecodes/personal-site">
+              <a target="_blank" rel="noreferrer">
+                <FaLink />
+                <span className="gradient">Website source</span>
+              </a>
+            </Link>
+          </div>
         </div>
       </div>
       <Divider thickness={2} align="center" width="max" />
