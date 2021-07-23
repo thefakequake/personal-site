@@ -1,7 +1,7 @@
 import styles from "@/styles/404.module.css"
 import Head from "next/head"
 
-const custom404 = () => {
+const Custom404 = () => {
 
   return <>
     <Head>
@@ -11,4 +11,4 @@ const custom404 = () => {
   </>
 }
 
-export default custom404
+export default Custom404

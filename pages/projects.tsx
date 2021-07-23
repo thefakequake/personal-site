@@ -9,7 +9,7 @@ interface projectTitleProps {
   projectName: string
 }
 
-const projectsPage = () => {
+const ProjectsPage = () => {
   return (
     <>
       <Head>
@@ -44,4 +44,4 @@ const projectsPage = () => {
   )
 }
 
-export default projectsPage
+export default ProjectsPage

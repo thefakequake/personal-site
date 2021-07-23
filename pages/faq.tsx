@@ -2,7 +2,7 @@ import Divider from "@/components/Divider"
 import { faq } from "@/data"
 import styles from "@/styles/faq.module.css"
 
-const faqPage = () => {
+const FaqPage = () => {
   return (
     <>
       <h1 className="gradient">FAQ</h1>
@@ -17,4 +17,4 @@ const faqPage = () => {
   )
 }
 
-export default faqPage
+export default FaqPage

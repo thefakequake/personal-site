@@ -6,7 +6,7 @@ import Image from "next/image"
 import Head from "next/head"
 import { useMediaQuery } from "react-responsive"
 
-const aboutMe = () => {
+const AboutMe = () => {
   const isMobile = useMediaQuery({ maxWidth: 763 })
 
   const logo = (
@@ -95,4 +95,4 @@ const aboutMe = () => {
   )
 }
 
-export default aboutMe
+export default AboutMe

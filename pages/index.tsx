@@ -7,7 +7,7 @@ import { languages, projects, socials, technologies } from "@/data"
 import Head from "next/head"
 import { FaLink } from "react-icons/fa"
 
-const home = () => {
+const Home = () => {
   const { data, loading } = useFetch(`https://api.github.com/users/${socials[3].id}`)
 
   return (
@@ -132,4 +132,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home
