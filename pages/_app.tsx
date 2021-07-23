@@ -5,7 +5,7 @@ import dynamic from "next/dynamic"
 import { useTheme } from "next-themes"
 import type { AppProps } from "next/app"
 
-const app = ({ Component, pageProps }: AppProps) => {
+const App = ({ Component, pageProps }: AppProps) => {
   const ReactTooltip = dynamic(() => import("react-tooltip"), {
     ssr: false
   })
@@ -30,4 +30,4 @@ const app = ({ Component, pageProps }: AppProps) => {
   )
 }
 
-export default app
+export default App
