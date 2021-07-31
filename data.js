@@ -81,6 +81,15 @@ export const projects = [
       "platform and vote on parts. The project is fully open source, and still in development."
   },
   {
+    name: "quakechat",
+    url: "https://github.com/quakecodes/quakechat",
+    image: "/quakechat.png",
+    title: "The world's worst messaging service.",
+    description:
+      "Bored of using mature and stable communication services like Discord? " +
+      "Me neither. But check out quakechat anyways, it's pretty cool."
+  },
+  {
     name: "PartsBot",
     url: "https://github.com/quakecodes/PartsBot",
     image: "/partsbot.png",
@@ -237,10 +246,7 @@ export const faq = [
     `Dark, obviously. Light theme makes my eyes bleed. If you're reading this on light theme now I strongly
  recommend hitting that toggle on the right of the Navbar.`
   ],
-  [
-    "Why did you capitalise a random letter in your name?",
-    "idk"
-  ],
+  ["Why did you capitalise a random letter in your name?", "idk"],
   [
     "How did you make your profile picture?",
     "I didn't. A Discord friend of mine called Bogdan did."
