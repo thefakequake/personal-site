@@ -173,6 +173,10 @@ export const technologies = [
     image: "/flask.png"
   },
   {
+    name: "Express",
+    image: "/express.png"
+  },
+  {
     name: "MongoDB",
     image: "/mongodb.png"
   },
