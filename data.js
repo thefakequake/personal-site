@@ -156,7 +156,7 @@ export const languages = [
   {
     name: "Go",
     image: "/golang.png"
-  }
+  },
   {
     name: "C#",
     image: "/csharp.png"
