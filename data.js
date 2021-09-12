@@ -70,15 +70,13 @@ export const pages = [
 
 export const projects = [
   {
-    name: "PartMatcher (WIP)",
+    name: "PartMatcher",
     url: "https://github.com/quakecodes/partmatcher",
     image: "/partmatcher.png",
     title: "Building a PC. Simplified.",
     description:
-      "PartMatcher redefines PC part management and does so in style. " +
-      "Featuring a clean dark theme and modern material design, " +
-      "PartMatcher also encourages builders to communicate with each other on the " +
-      "platform and vote on parts. The project is fully open source, and still in development."
+      "PartMatcher is a cancelled PCPartPicker-like website that planned to take the concept " +
+      "of a PC part manage further than ever before. Unfortunately, the project was cancelled in mid 2021."
   },
   {
     name: "quakechat",
