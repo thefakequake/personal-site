@@ -17,8 +17,8 @@ export const socials = [
   },
   {
     name: "Twitter",
-    url: "https://twitter.com/QuaKeWasTaken",
-    id: "QuaKeWasTaken",
+    url: "https://twitter.com/quakecodes",
+    id: "quakecodes",
     icon: <FaTwitter />
   },
   {
