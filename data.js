@@ -24,7 +24,7 @@ export const socials = [
   {
     name: "YouTube",
     url: "https://www.youtube.com/channel/UCtOKqv3Jh7i4_nmP3PxhzxQ",
-    id: "QuaKe Gaming",
+    id: "thefakequake",
     icon: <FaYoutube />
   },
   {
@@ -47,8 +47,8 @@ export const socials = [
   },
   {
     name: "Steam",
-    url: "https://steamcommunity.com/id/quakewastaken/",
-    id: "quakewastaken",
+    url: "https://steamcommunity.com/id/thefakequake/",
+    id: "thefakequake",
     icon: <FaSteam />
   }
 ]
@@ -69,6 +69,15 @@ export const pages = [
 ]
 
 export const projects = [
+  {
+    name: "gopartpicker",
+    url: "https://github.com/quakecodes/gopartpicker",
+    image: "/golang.png",
+    title: "PCPartPicker in Go",
+    description:
+      "gopartpicker is an easy to use PCPartPicker scraping wrapper that allows you to integrate " +
+      "PCPartPicker into your Go applications."
+  },
   {
     name: "PartMatcher",
     url: "https://github.com/quakecodes/partmatcher",
@@ -226,10 +235,9 @@ export const faq = [
   ],
   [
     "What's your favourite programming language?",
-    `Probably Python, I just like how simple yet effective the syntax is and I find indentation
- easier to debug. I also like how it's strongly typed, and I'm discovering new syntax sugar in
- it literally every day. Python is also ultimately very versatile and useful, I've used it heavily
- in backends with Flask and Discord bots with discord.py.`
+    `Probably Go, its a very flexible language that offers speed while keeping your projects simple.
+ I've used it to make bots in DiscordGo and I've even written a PCPartPicker scraper in it. If I could
+ improve it, I would copy and paste the TypeScript type system into it.`
   ],
   [
     "What's your favourite video game?",
