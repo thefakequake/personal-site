@@ -70,6 +70,15 @@ export const pages = [
 
 export const projects = [
   {
+    name: "PartsBot",
+    url: "https://github.com/quakecodes/PartsBot",
+    image: "/partsbot.png",
+    title: "This code still sucks",
+    description:
+      "PartsBot is a Discord bot that fetches information from PCPartPicker from Discord. " +
+      "Essential for any PC/tech server, and written in Go using discordgo."
+  },
+  {
     name: "gopartpicker",
     url: "https://github.com/quakecodes/gopartpicker",
     image: "/golang.png",
@@ -97,17 +106,13 @@ export const projects = [
       "Me neither. But check out quakechat anyways, it's pretty cool."
   },
   {
-    name: "PartsBot",
-    url: "https://github.com/quakecodes/PartsBot",
+    name: "Old PartsBot",
+    url: "https://github.com/quakecodes/Old-PartsBot",
     image: "/partsbot.png",
-    title: "PCPartPicker at your fingertips",
+    title: "This code sucks",
     description:
-      "PartsBot is a sophisticated Discord bot that allows you to access " +
-      "PCPartPicker functions from your very own Discord servers." +
-      "Featuring commands to view the price and specs of parts, and auto formatting " +
-      "PCPartPicker links, you will find yourself leaving Discord less often." +
-      "The bot also has other features, such as build saving and a command that shows " +
-      "good case options to buy."
+      "Old PartsBot was the original PartsBot, written in Python. It has been replaced " +
+      "by the newer one written in Go."
   },
   {
     name: "PyPartPicker",
