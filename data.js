@@ -207,7 +207,7 @@ export const setup = {
     CPU: "Intel Core i5-10400F Hex-core",
     Motherbooard: "MSI B460M PRO-VDH WIFI",
     Memory: "Corsair Vengeance 4x8GB 3200MHz CL16",
-    Storage: "Kingston A2000 500GB NVMe SSD",
+    Storage: "Kingston A2000 500GB NVMe SSD + WD Blue SN550 1TB NVMe SSD",
     "Graphics Card": "MSI RX 5500 XT 8GB Gaming X",
     Case: "Aerocool Aero One Mini Eclipse",
     "Power Supply": "Cooler Master MWE Bronze V2 550W 80+ Bronze"
