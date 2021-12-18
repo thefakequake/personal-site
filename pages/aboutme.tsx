@@ -24,7 +24,7 @@ const AboutMe = () => {
     <p>
       I&apos;m a programmer from the UK who also enjoys gaming in my free time.
       I&apos;m in Year 10 of secondary school, and I take Computer Science GCSE.
-      I program primarily in Python and JavaScript, but I also use TypeScript
+      I program primarily in Go, Python and JavaScript, but I also use TypeScript
       and sometimes C#. Most of my projects are web applications, but I&apos;ve
       also written a{" "}
       <Link href="/projects/#pypartpicker">
@@ -61,10 +61,9 @@ const AboutMe = () => {
         )}
       </div>
       <p>
-        As for video games, I enjoy playing Minecraft, Rainbow Six Siege and
+        As for video games, I enjoy playing Terraria, Minecraft, Rainbow Six Siege and
         Ghost Recon. I&apos;ve played Apex Legends and VALORANT a decent amount
-        in the past as well. My favourite genre of game is tactical shooters. I
-        find them very strategic and I like planning before missions.
+        in the past as well.
       </p>
       <h1 className="gradient" id="setup">
         My setup
