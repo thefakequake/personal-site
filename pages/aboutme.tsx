@@ -25,7 +25,7 @@ const AboutMe = () => {
       I&apos;m a programmer from the UK who also enjoys gaming in my free time.
       I program primarily in Go and Python but I also use TypeScript/JavaScript.
       I aspire to learn Rust one day, but for now most of my projects are in Go.
-      I've worked on various projects such as websites like this and Discord bots.
+      I&apos;ve worked on various projects such as websites like this and Discord bots.
     </p>
   )
 
@@ -53,7 +53,7 @@ const AboutMe = () => {
       </div>
       <p>
         As for video games, I enjoy playing Apex Legends, Terraria, Minecraft, Rainbow Six Siege and
-        Ghost Recon. I don't have any interest in playing League of Legends.
+        Ghost Recon. I don&apos;t have any interest in playing League of Legends.
       </p>
       <h1 className="gradient" id="setup">
         My setup
