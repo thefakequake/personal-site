@@ -67,7 +67,7 @@ const Navbar = ({ currentPage }: NavbarProps) => {
         <Link href="/">
           <a className={styles.home}>
             <Image
-              src="/quake.png"
+              src="/pixel_quake.png"
               width="50px"
               height="50px"
               className={styles.logo}

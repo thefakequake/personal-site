@@ -40,12 +40,6 @@ export const socials = [
     icon: <FaTwitch />
   },
   {
-    name: "Reddit",
-    url: "https://www.reddit.com/user/MLG_G0D",
-    id: "u/MLG_GOD",
-    icon: <FaReddit />
-  },
-  {
     name: "Steam",
     url: "https://steamcommunity.com/id/thefakequake/",
     id: "thefakequake",
@@ -70,17 +64,18 @@ export const pages = [
 
 export const projects = [
   {
-    name: "PartsBot",
-    url: "https://github.com/quakecodes/PartsBot",
-    image: "/partsbot.png",
-    title: "This code still sucks",
+    name: "Evengen",
+    url: "https://github.com/thefakequake/evengen",
+    image: "/golang.png",
+    title: "Discord API made simple(r)",
     description:
-      "PartsBot is a Discord bot that fetches information from PCPartPicker from Discord. " +
-      "Essential for any PC/tech server, and written in Go using discordgo."
+      "A Markdown parser that creates Go structs from the Discord API docs. " +
+      "Although a bit inconsistent, most of the output it produces is usable code which saves a " +
+      "huge amount of time."
   },
   {
     name: "gopartpicker",
-    url: "https://github.com/quakecodes/gopartpicker",
+    url: "https://github.com/thefakequake/gopartpicker",
     image: "/golang.png",
     title: "PCPartPicker in Go",
     description:
@@ -89,7 +84,7 @@ export const projects = [
   },
   {
     name: "PartMatcher",
-    url: "https://github.com/quakecodes/partmatcher",
+    url: "https://github.com/thefakequake/partmatcher",
     image: "/partmatcher.png",
     title: "Building a PC. Simplified.",
     description:
@@ -98,7 +93,7 @@ export const projects = [
   },
   {
     name: "quakechat",
-    url: "https://github.com/quakecodes/quakechat",
+    url: "https://github.com/thefakequake/quakechat",
     image: "/quakechat.png",
     title: "The world's worst messaging service.",
     description:
@@ -107,7 +102,7 @@ export const projects = [
   },
   {
     name: "Old PartsBot",
-    url: "https://github.com/quakecodes/Old-PartsBot",
+    url: "https://github.com/thefakequake/Old-PartsBot",
     image: "/partsbot.png",
     title: "This code sucks",
     description:
@@ -116,7 +111,7 @@ export const projects = [
   },
   {
     name: "PyPartPicker",
-    url: "https://github.com/quakecodes/pypartpicker",
+    url: "https://github.com/thefakequake/pypartpicker",
     image: "/python.png",
     title: "PCPartPicker in Python.",
     description:
@@ -127,7 +122,7 @@ export const projects = [
   },
   {
     name: "MCHotbarScroll",
-    url: "https://github.com/quakecodes/MCHotbarScroll",
+    url: "https://github.com/thefakequake/MCHotbarScroll",
     image: "/python.png",
     title: "Autoscrolling has never been this easy.",
     description:
@@ -137,7 +132,7 @@ export const projects = [
   },
   {
     name: "Coronapyrus",
-    url: "https://github.com/quakecodes/coronapyrus",
+    url: "https://github.com/thefakequake/coronapyrus",
     image: "/python.png",
     title: "Don't run this on your machine.",
     description: "Seriously, don't. You will regret it."
@@ -145,6 +140,10 @@ export const projects = [
 ]
 
 export const languages = [
+  {
+    name: "Go",
+    image: "/golang.png"
+  },
   {
     name: "Python",
     image: "/python.png"
@@ -164,10 +163,6 @@ export const languages = [
   {
     name: "CSS",
     image: "/css.png"
-  },
-  {
-    name: "Go",
-    image: "/golang.png"
   },
   {
     name: "C#",
@@ -240,9 +235,9 @@ export const faq = [
   ],
   [
     "What's your favourite programming language?",
-    `Probably Go, its a very flexible language that offers speed while keeping your projects simple.
- I've used it to make bots in DiscordGo and I've even written a PCPartPicker scraper in it. If I could
- improve it, I would copy and paste the TypeScript type system into it.`
+    `Go, because it just makes so much sense. Although it seems limiting at first with its sometimes
+bizarre semantics and unintuitive interfaces, it's a modern language that excels at keeping things simple
+while maintaining the performance and reliability of your application.`
   ],
   [
     "What's your favourite video game?",
@@ -254,24 +249,18 @@ export const faq = [
     "What do you use your Raspberry Pi for?",
     "Hosting Discord bots or other scripts that I choose to have running 24/7."
   ],
-  [
-    "Why don't you use Linux?",
-    `I play a lot of games, and Linux hasn't gotten to the point where I can comfortably say that a popular 
- game will be supported. There's also probably a lot of programs that I depend on that aren't on Linux. I
- really like Linux though, especially the terminal.`
-  ],
+  ["Why don't you use Linux?", `It doesn't have the app support that I need.`],
   [
     "Light or dark theme?",
-    `Dark, obviously. Light theme makes my eyes bleed. If you're reading this on light theme now I strongly
- recommend hitting that toggle on the right of the Navbar.`
+    `Dark, obviously. This site is dark theme by default.`
   ],
   ["Why did you capitalise a random letter in your name?", "idk"],
   [
     "How did you make your profile picture?",
-    "I didn't. A Discord friend of mine called Bogdan did."
+    "A friend of mine called Bogdan made the original one, and I converted it to a pixel form for the hell of it using a Python script."
   ],
   [
     "Have you played the game Quake?",
-    "No, but it was a revolutionary game that changed the industry and I respect it for that."
+    "No, I hadn't even heard of the game when I chose my username."
   ]
 ]

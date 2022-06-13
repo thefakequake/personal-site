@@ -11,7 +11,7 @@ const AboutMe = () => {
 
   const logo = (
     <img
-      src="/quake.png"
+      src="/pixel_quake.png"
       width="200px"
       height="200px"
       className={styles.logo}
@@ -23,18 +23,9 @@ const AboutMe = () => {
   const desc = (
     <p>
       I&apos;m a programmer from the UK who also enjoys gaming in my free time.
-      I&apos;m in Year 10 of secondary school, and I take Computer Science GCSE.
-      I program primarily in Go, Python and JavaScript, but I also use TypeScript
-      and sometimes C#. Most of my projects are web applications, but I&apos;ve
-      also written a{" "}
-      <Link href="/projects/#pypartpicker">
-        <a>PyPi package</a>
-      </Link>{" "}
-      and a{" "}
-      <Link href="/projects/#partsbot">
-        <a>Discord bot</a>
-      </Link>
-      .
+      I program primarily in Go and Python but I also use TypeScript/JavaScript.
+      I aspire to learn Rust one day, but for now most of my projects are in Go.
+      I've worked on various projects such as websites like this and Discord bots.
     </p>
   )
 
@@ -61,9 +52,8 @@ const AboutMe = () => {
         )}
       </div>
       <p>
-        As for video games, I enjoy playing Terraria, Minecraft, Rainbow Six Siege and
-        Ghost Recon. I&apos;ve played Apex Legends and VALORANT a decent amount
-        in the past as well.
+        As for video games, I enjoy playing Apex Legends, Terraria, Minecraft, Rainbow Six Siege and
+        Ghost Recon. I don't have any interest in playing League of Legends.
       </p>
       <h1 className="gradient" id="setup">
         My setup
@@ -74,16 +64,16 @@ const AboutMe = () => {
         height="480"
         className={styles.setupImage}
       />
-      <h3>I have a custom built PC. Here are the specs:</h3>
+      <p>I have a custom built PC. Specs are listed below.</p>
       <div className={styles.setup}>
         {Object.entries(setup).map((entry, count) => (
           <div key={count}>
             <h2 className={(clsx("gradient"), styles.entry)}>{entry[0]}</h2>
             {Object.entries(entry[1]).map((part, count) => (
-              <h3 key={count}>
+              <p key={count}>
                 <span className="gradient">{part[0]}: </span>
                 {part[1]}
-              </h3>
+              </p>
             ))}
           </div>
         ))}

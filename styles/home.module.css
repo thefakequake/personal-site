@@ -16,6 +16,11 @@
   margin-left: 2rem;
 }
 
+.intro > h1 {
+  font-size: 2.5rem;
+  margin: 0.75rem 0 0.75rem 0;
+}
+
 .intro > p {
   font-size: 1.25rem;
   margin: 0;
@@ -132,4 +137,8 @@
   .intro > div > a {
     margin-left: 0;
   }
+}
+
+.githubStats p {
+  margin: 0.5rem 0 0.5rem 0;
 }

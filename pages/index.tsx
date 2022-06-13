@@ -19,15 +19,15 @@ const Home = () => {
       </Head>
       <div className={styles.introContainer}>
         <Image
-          src="/quake.png"
+          src="/pixel_quake.png"
           width="200px"
           height="200px"
           className={styles.logo}
           layout="fixed"
         />
         <div className={styles.intro}>
-          <h1 className="gradient">Hi, welcome to my website!</h1>
-          <p>My name is QuaKe, and I&apos;m from the UK.</p>
+          <h1 className="gradient">QuaKe</h1>
+          <p>Welcome to my site!</p>
           <div>
             <Link href="/aboutme">
               <a>
@@ -35,7 +35,7 @@ const Home = () => {
                 <span className="gradient">About me</span>
               </a>
             </Link>
-            <Link href="https://github.com/quakecodes/personal-site">
+            <Link href="https://github.com/thefakequake/personal-site">
               <a target="_blank" rel="noreferrer">
                 <FaLink />
                 <span className="gradient">Website source</span>
@@ -48,7 +48,7 @@ const Home = () => {
       <div className={styles.listContainer}>
         <div>
           <h2 className={styles.listTitle}>
-            Check out my <span className="gradient">socials</span>:
+            Check out my <span className="gradient">socials</span>
           </h2>
           <div className={styles.socials}>
             {socials.map((social, count) => (
@@ -66,7 +66,7 @@ const Home = () => {
         </div>
         <div>
           <h2 className={styles.listTitle}>
-            Check out my <span className="gradient">projects</span>:
+            Check out my <span className="gradient">projects</span>
           </h2>
           <div className={styles.projects}>
             {projects.map((project, count) => (
@@ -83,7 +83,7 @@ const Home = () => {
         </div>
         <div>
           <h2 className={styles.listTitle}>
-            I use these <span className="gradient">languages</span>:
+            I use these <span className="gradient">languages</span>
           </h2>
           <div className={styles.languages}>
             {languages.map((language, count) => (
@@ -99,7 +99,7 @@ const Home = () => {
         </div>
         <div>
           <h2 className={styles.listTitle}>
-            And these <span className="gradient">technologies</span>:
+            And these <span className="gradient">technologies</span>
           </h2>
           <div className={styles.technologies}>
             {technologies.map((technology, count) => (
@@ -115,26 +115,26 @@ const Home = () => {
         </div>
       </div>
       <Divider thickness={2} align="center" width="max" />
-      <div className={styles.githubStatsContainer}>
+      <div>
         <h1 className="gradient">GitHub Stats</h1>
         <div className={styles.githubStats}>
           {loading ? (
             <h1>Loading...</h1>
           ) : (
             <>
-              <h3>
+              <p>
                 Followers: <span className="gradient">{data.followers}</span>
-              </h3>
-              <h3>
+              </p>
+              <p>
                 Following: <span className="gradient">{data.following}</span>
-              </h3>
-              <h3>
+              </p>
+              <p>
                 Repositories:{" "}
                 <span className="gradient">{data.public_repos}</span>
-              </h3>
-              <h3>
+              </p>
+              <p>
                 Gists: <span className="gradient">{data.public_gists}</span>
-              </h3>
+              </p>
             </>
           )}
         </div>
