@@ -36,7 +36,7 @@ export const socials = [
   {
     name: "Twitch",
     url: "https://www.twitch.tv/thefakequake",
-    id: "thefakequake",https://github.com/thefakequake/personal-site/blob/master/data.js
+    id: "thefakequake",
     icon: <FaTwitch />
   },
   {
