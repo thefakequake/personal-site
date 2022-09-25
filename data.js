@@ -64,6 +64,13 @@ export const pages = [
 
 export const projects = [
   {
+    name: "QuaKe Logo Generator",
+    url: "https://thefakequake.github.io",
+    image: "/pixel_quake.png",
+    title: "One gradient, infinite possibilities",
+    description: "A QuaKe pixel logo generator built with Python for the browser."
+  },
+  {
     name: "Evengen",
     url: "https://github.com/thefakequake/evengen",
     image: "/golang.png",
