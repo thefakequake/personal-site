@@ -215,10 +215,11 @@ export const setup = {
     "Power Supply": "Cooler Master MWE Bronze V2 550W 80+ Bronze"
   },
   Peripherals: {
-    Mouse: "Razer Viper Mini",
+    Mouse: "Logitech G PRO Wireless + Razer Viper Mini (old)",
     Keyboard: "Tecware Phantom 88 TKL Outemu Red",
     Mousepad: "Razer Gigantus V2 Medium",
     Monitor: "AOC 24G2U 1080p 144hz IPS",
+    Headphones: "Superlux HD668B (broken)",
     Microphone: "Fifine K669",
     Controller: "Xbox One Wireless Bluetooth Controller"
   },
