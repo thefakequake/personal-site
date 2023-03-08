@@ -219,7 +219,7 @@ export const setup = {
     Keyboard: "Tecware Phantom 88 TKL Outemu Red",
     Mousepad: "Razer Gigantus V2 Medium",
     Monitor: "AOC 24G2U 1080p 144hz IPS",
-    Headphones: "Superlux HD668B (broken)",
+    Headphones: "HyperX Cloud II + Superlux HD668B (broken)",
     Microphone: "Fifine K669",
     Controller: "Xbox One Wireless Bluetooth Controller"
   },
