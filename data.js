@@ -216,7 +216,7 @@ export const setup = {
   },
   Peripherals: {
     Mouse: "Logitech G PRO Wireless + Razer Viper Mini (old)",
-    Keyboard: "Tecware Phantom 88 TKL Outemu Red",
+    Keyboard: "Tecware Phantom 88 TKL with KTT Wine Reds",
     Mousepad: "Razer Gigantus V2 Medium",
     Monitor: "AOC 24G2U 1080p 144hz IPS",
     Headphones: "HyperX Cloud II + Superlux HD668B (broken)",
